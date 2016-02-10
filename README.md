@@ -2,6 +2,9 @@
 ## [2015-05-18] Challenge #215 [Easy] Sad Cycles
 
 ### Description
+
+[Link](https://www.reddit.com/r/dailyprogrammer/comments/3840rp/20150601_challenge_217_easy_lumberjack_pile/)
+
 Take a number, and add up the square of each digit. You'll end up with another number. If you repeat this process over and over again, you'll see that one of two things happen:
 - You'll reach one, and from that point you'll get one again and again.
 - You'll reach a cycle of 4, 16, 37, 58, 89, 145, 42, 20, 4, 16, 37, ...  
