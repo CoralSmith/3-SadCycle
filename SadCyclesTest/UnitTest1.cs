@@ -21,6 +21,12 @@ namespace SadCyclesTest
             AssertContainsAll(new List<int> { 1 }, SadCycle.Generate(2, 10));
         }
 
+        [TestMethod]
+        public void GivenBase2Start12Returns1()
+        {
+            AssertContainsAll(new List<int> { 4, 16, 37, 58, 89, 145 }, SadCycle.Generate(2, 12));
+        }
+
         public void AssertContainsAll(IEnumerable<int> expected, IEnumerable<int> actual)
         {
             int n1 = expected.Distinct().Count();
